@@ -3,12 +3,9 @@ import ReactDOM from 'react-dom';
 
 import '../assets/stylesheets/application.scss';
 
+import App from './components/app.jsx';
+
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(
-    <div>
-      <div className="left-scene"></div>
-      <div className="right-scene"></div>
-    </div>
-  );
+  ReactDOM.render(<App />, root );
 }
