@@ -7,7 +7,8 @@ const root = document.getElementById('root');
 if (root) {
   ReactDOM.render(
     <div>
-      <div className="col-xs-8"></div>
+      <div className="left-scene"></div>
+      <div className="right-scene"></div>
     </div>
   );
 }
